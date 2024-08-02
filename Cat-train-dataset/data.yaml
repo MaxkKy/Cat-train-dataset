@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['-', '- -']
+
+roboflow:
+  workspace: max-39adf
+  project: food-e6dyb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/max-39adf/food-e6dyb/dataset/1
